@@ -1,0 +1,19 @@
+{
+  "name": "docz-example-basic",
+  "version": "2.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "docz dev",
+    "build": "docz build",
+    "serve": "docz serve"
+  },
+  "dependencies": {
+    "@ziro/theme": "^1.0.3",
+    "docz": "latest",
+    "framer-motion": "^1.8.3",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}

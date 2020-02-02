@@ -1,0 +1,23 @@
+---
+name: Button
+menu: Components
+route: /button
+---
+
+import { Playground, Props } from 'docz'
+import Button from './index'
+
+# Button
+
+## Properties
+
+<Props of={Button} />
+
+## Usage
+
+<Playground>
+	<div style={{ display: 'grid', alignItems: 'center', gridRowGap: '40px', margin: '20px auto', maxWidth: '400px', height: '100%'}}>
+		<Button type='submit' cta='Enviar' />
+		<Button type='click' cta='Enviar' />
+	</div>
+</Playground>
